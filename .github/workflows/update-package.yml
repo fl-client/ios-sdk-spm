@@ -1,0 +1,15 @@
+name: Update Package.swift With SPM Checksums
+
+on:
+  repository_dispatch:
+    types: [update-package-swift]
+
+jobs:
+  update:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Version: ${{ fromJson(github.event.client_payload.checksums_release).version }}"
+      # and for debug if needed:
+      # - run: echo '${{ github.event.client_payload.checksums_debug }}' > spm_checksums_Debug.json
+      # Then update Package.swift as needed
