@@ -24,9 +24,6 @@ let package = Package(
             name: "QPHeartbeat",
             targets: ["FLHeartbeat"]),
         .library(
-            name: "QPHeartbeat",
-            targets: ["FLHeartbeat"]),
-        .library(
             name: "QPStreamConcurrency",
             targets: ["FLStreamConcurrency"]),
         .library(
