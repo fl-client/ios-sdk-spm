@@ -47,88 +47,88 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "FLFoundation",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLFoundation/FLFoundation-7.0.222.20260128093540.xcframework.zip",
-            checksum: "81c507ae10b4718bb930ae9fb230af5702449a5aad707e5488e826d989678dfd"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLFoundation/FLFoundation-7.0.222.20260129064204.xcframework.zip",
+            checksum: "bd7e64d6161aaa3f77d5a17dcabd2dd2d709768a0880d5200c7178ae9a589466"
         ),
         .binaryTarget(
             name: "FLPlatformCore",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlatformCore/FLPlatformCore-7.0.222.20260128093540.xcframework.zip",
-            checksum: "518a7d82ee41d6f0a0e56dafebd0329526c09aa556e88fce5504c639e8da4894"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlatformCore/FLPlatformCore-7.0.222.20260129064204.xcframework.zip",
+            checksum: "5142f303560838117b41a7b4c2f7f5ce08e54834648f230a601075bad4117117"
         ),
         .binaryTarget(
             name: "FLPlayerInterface",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlayerInterface/FLPlayerInterface-7.0.222.20260128093540.xcframework.zip",
-            checksum: "c561a7347fe72a0610101f4ea45cbfac16b0219f52e0bb44d516ee63dce92dbb"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlayerInterface/FLPlayerInterface-7.0.222.20260129064204.xcframework.zip",
+            checksum: "c2b2282baaa5e35a6db6e6e6ba4b8068225c35182aa6ababa1b2e90b5974e000"
         ),
         .binaryTarget(
             name: "FLPlayer",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlayer/FLPlayer-7.0.222.20260128093540.xcframework.zip",
-            checksum: "544d1d6691b75b4b1f2d738b9749e445eeb401945b102dd1ef9126f11a857c96"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlayer/FLPlayer-7.0.222.20260129064204.xcframework.zip",
+            checksum: "0c68e1851a64a0f952c5bc79263b4374f678fdba86fd5799fa496f15736f6fe8"
         ),
         .binaryTarget(
             name: "FLContentAuthorizer",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLContentAuthorizer/FLContentAuthorizer-7.0.222.20260128093540.xcframework.zip",
-            checksum: "d36db2c60206d7fcb17190e577676c31bb11798dda20b062a23c4927ac1ea5e3"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLContentAuthorizer/FLContentAuthorizer-7.0.222.20260129064204.xcframework.zip",
+            checksum: "66b539126b95a2f84658b9b7bf8f399287a97eb5984f3e621ec2cffccd1a5495"
         ),
         .binaryTarget(
             name: "FLPlatformPlayer",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlatformPlayer/FLPlatformPlayer-7.0.222.20260128093540.xcframework.zip",
-            checksum: "bca44b15814cd4576332970f09c4f242f3f31592d22d692e34ad40c57d55235e"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLPlatformPlayer/FLPlatformPlayer-7.0.222.20260129064204.xcframework.zip",
+            checksum: "4549d9867e42c52a4e3641e01704d472ac9995f75348860c8545c38f22ba52d6"
         ),
         .binaryTarget(
             name: "FLChromecast",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLChromecast/FLChromecast-7.0.222.20260128093540.xcframework.zip",
-            checksum: "a6fc4568e9a920798bda339c1b149b4c106f0b359f25dd9c31914a3c8468e6c9"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLChromecast/FLChromecast-7.0.222.20260129064204.xcframework.zip",
+            checksum: "2f5e80126186d8cb855ae6e55320fa63c0d7f11d396ca326676957af184545a5"
         ),
         .binaryTarget(
             name: "FLAdvertisingGoogleIMA",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingGoogleIMA/FLAdvertisingGoogleIMA-7.0.222.20260128093540.xcframework.zip",
-            checksum: "6f4f2537dd29100116d73b60bcbd95602f50de82f4747f93e631b9c2573fc7ec"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingGoogleIMA/FLAdvertisingGoogleIMA-7.0.222.20260129064204.xcframework.zip",
+            checksum: "8ea4ccc9a5d8d17f5312ce38c5a3d8b4f7f902909826d1451c3f789723cbf232"
         ),
         .binaryTarget(
             name: "FLBookmarks",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLBookmarks/FLBookmarks-7.0.222.20260128093540.xcframework.zip",
-            checksum: "80af7632fa7415d3c13522aa4b0eadac9ef3d12cdb314a650b6191d726a7310a"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLBookmarks/FLBookmarks-7.0.222.20260129064204.xcframework.zip",
+            checksum: "33a33cc8850a132514f514a465414b971a3d572be91acf038fd4f7a18b1bc27a"
         ),
         .binaryTarget(
             name: "FLHeartbeat",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLHeartbeat/FLHeartbeat-7.0.222.20260128093540.xcframework.zip",
-            checksum: "064c7bb078dead708b7e1c76b0c69381be2cb32fe47f617564a81fc9fb720015"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLHeartbeat/FLHeartbeat-7.0.222.20260129064204.xcframework.zip",
+            checksum: "c886c3fbf63a7b791266e0e83fab5dfb635f6165d648837aee096f321a2c2906"
         ),
         .binaryTarget(
             name: "FLStreamConcurrency",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLStreamConcurrency/FLStreamConcurrency-7.0.222.20260128093540.xcframework.zip",
-            checksum: "94aa345a8018328832e0f1226b08536df79a297986f19cfb293444368791ef93"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLStreamConcurrency/FLStreamConcurrency-7.0.222.20260129064204.xcframework.zip",
+            checksum: "e348d9911e6d90fb01e8e03d6c8211c6351772d6fffd3cd9e2f63bab34588fb7"
         ),
         .binaryTarget(
             name: "FLFavorites",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLFavorites/FLFavorites-7.0.222.20260128093540.xcframework.zip",
-            checksum: "a2ca62d6ce725173b289051f3371eb81e441cc72a829d4765907b1adcb6bd940"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLFavorites/FLFavorites-7.0.222.20260129064204.xcframework.zip",
+            checksum: "82740ce2e404552c91c8c27c7d81c3e657d6310d50b5a1ce806e77081bd7906f"
         ),
         .binaryTarget(
             name: "FLAdvertisingGooglePAL",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingGooglePAL/FLAdvertisingGooglePAL-7.0.222.20260128093540.xcframework.zip",
-            checksum: "e15fad30c401eafc2f3f5f49a4c8de7e6d2206bb88f03bbf7b70f91d5a1889ce"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingGooglePAL/FLAdvertisingGooglePAL-7.0.222.20260129064204.xcframework.zip",
+            checksum: "a2ee40490c44aa66db1d40f1bb58765d4d48dbe2bb1a12a8a007ee0938b0f84b"
         ),
         .binaryTarget(
             name: "FLAnalytics",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAnalytics/FLAnalytics-7.0.222.20260128093540.xcframework.zip",
-            checksum: "9a1ae91f32f061507f5d892d004f6b162e6a90d2f1fa9ecc4dacd37a2365ffc7"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAnalytics/FLAnalytics-7.0.222.20260129064204.xcframework.zip",
+            checksum: "e4da2945a4d98cfa5ab3e5429852a6d7c1aae99f51d0d1b5889a98ddd05de122"
         ),
         .binaryTarget(
             name: "FLTriton",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLTriton/FLTriton-7.0.222.20260128093540.xcframework.zip",
-            checksum: "7e559f9cd5aabf80ac19e1701070a62954412e9208d13dc33a6bac577ffe5751"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLTriton/FLTriton-7.0.222.20260129064204.xcframework.zip",
+            checksum: "fd78146374f6b34e21854d1b597ad302520473091cb1240b9958d69a88f64fd8"
         ),
         .binaryTarget(
             name: "FLAdvertisingBrightcove",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingBrightcove/FLAdvertisingBrightcove-7.0.222.20260128093540.xcframework.zip",
-            checksum: "8be80e9ce936881203910948c72671084919d454411030a00a3def505943bbb5"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingBrightcove/FLAdvertisingBrightcove-7.0.222.20260129064204.xcframework.zip",
+            checksum: "c744365f5fd68f7ffba3a19a9ce81c92636c601158778902ff4051c352676f59"
         ),
         .binaryTarget(
             name: "FLShorts",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLShorts/FLShorts-7.0.222.20260128093540.xcframework.zip",
-            checksum: "40cc89ba3f1356734e6f559ac80e68b14cee6802b2299cc51cc0faa03ff8b741"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLShorts/FLShorts-7.0.222.20260129064204.xcframework.zip",
+            checksum: "2ef8dd4d2810decc3bb6a3476d924b0113ddf2e880b8dc29c242e0bf85dec37a"
         ),
     ]
 )
