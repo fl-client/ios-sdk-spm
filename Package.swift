@@ -41,6 +41,12 @@ let package = Package(
         .library(
             name: "QPShorts",
             targets: ["FLShorts"]),
+        .library(
+            name: "QPAdvertisingMediaTailor",
+            targets: ["FLAdvertisingMediatailor"]),
+        .library(
+            name: "QPAdvertisingBroadpeak",
+            targets: ["FLAdvertisingBroadpeak"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -129,6 +135,16 @@ let package = Package(
             name: "FLShorts",
             url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLShorts/FLShorts-7.0.259.20260416084621.xcframework.zip",
             checksum: "9105127c8ab8db45237d22b451feed49a7f294703b8d0a22638904a7f638231d"
+        ),
+        .binaryTarget(
+            name: "FLAdvertisingMediatailor",
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingMediatailor/FLAdvertisingMediatailor-7.0.257.xcframework.zip",
+            checksum: "9aa7959280e862deebe84d2d9f4182790d3c17960c5bb2c00b4ef6429e5e7d39"
+        ),
+        .binaryTarget(
+            name: "FLAdvertisingBroadpeak",
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingBroadpeak/FLAdvertisingBroadpeak-7.0.257.xcframework.zip",
+            checksum: "9aa7959280e862deebe84d2d9f4182790d3c17960c5bb2c00b4ef6429e5e7d39"
         ),
     ]
 )
