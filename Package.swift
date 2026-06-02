@@ -36,6 +36,9 @@ let package = Package(
             name: "QPAnalytics",
             targets: ["FLAnalytics"]),
         .library(
+            name: "QPTriton",
+            targets: ["FLTriton"]),
+        .library(
             name: "QPAdvertisingBrightcove",
             targets: ["FLAdvertisingBrightcove"]),
         .library(
