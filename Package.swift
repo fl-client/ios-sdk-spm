@@ -141,13 +141,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "FLAdvertisingMediatailor",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingMediatailor/FLAdvertisingMediatailor-7.0.272.xcframework.zip",
-            checksum: "05dd66c2f1255cf9cb4924443e16c5bea2fdb1d4d5df204737c687d7b0ad8ca6"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingMediatailor/FLAdvertisingMediatailor-7.0.273.xcframework.zip",
+            checksum: "f22861e6aed20632b66112760a291ee5e3aa0e070d318cb8aff55f6da52442fc"
         ),
         .binaryTarget(
             name: "FLAdvertisingBroadpeak",
-            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingBroadpeak/FLAdvertisingBroadpeak-7.0.272.xcframework.zip",
-            checksum: "e6bc00628054b8893feb4d588b5e7ab726828689a6d1d291c163ea3537c85543"
+            url: "https://firstlight.jfrog.io/artifactory/qp-player-sdk-swift/Release/FLAdvertisingBroadpeak/FLAdvertisingBroadpeak-7.0.273.xcframework.zip",
+            checksum: "cd062c756d9aab4ff7ad6d22ab3462f9c65e7faa46bae421f98749e37370724f"
         ),
     ]
 )
